@@ -2,3 +2,43 @@
     background-color: lightblue;
     text-align: center;
 }
+body{
+    background-color: #f8f4b4;
+}
+#sumario{
+  height: 70px;
+  width: 1310px;
+background-color: rgb(109, 167, 147);
+text-align:center;
+}
+div.temas{
+    width: 160px;
+    height: 9px;
+    border-left: 2px solid black;
+    height: 100%;
+}
+#quem-somos{
+    float: right;
+
+}
+#agendamento-de-consulta{
+  float: right;
+}
+#faq{
+    float: right;
+}
+#pagina-de-contato{
+    float: right;
+}
+#feedback{
+    float: right;
+}
+#profissionais{
+ float: right;   
+}
+#especialidades{
+    float: right;
+}
+#serviços{
+    float: right;
+}
