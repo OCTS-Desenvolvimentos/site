@@ -9,11 +9,51 @@
 </head>
 
 <body>
-    <div class="banner">
-        <p><h2>Agendamento de Consulta</h2></p>
+    <div class="form">
+        <div class="banner">
+            <p><h2>Agendamento de Consulta</h2></p>
+        </div>
+        <center>
+        <label for="Nome">Nome:</label>
+        <input type="text", placeholder="Nome Completo">
+        <br><br>
+        <label for="nascimento">Data de nascimento:</label>
+        <input type="date">
+        <label for="genero">Gênero:</label>
+        <input type="radio", name="genero">
+        <label for="genero">Masculino</label>
+        <input type="radio", name="genero">
+        <label for="genero">Feminino</label>
+        <br><br>
+        <label for="endereco">Endereço:</label>
+        <input type="text", name="endereco", placeholder="Ex: Rua Joaquim Fonseca">
+        <label for="cep">CEP:</label>
+        <input type="text", name="cep">
+        <br><br>
+        <label for="celular">Telefone Celular:</label>
+        <input type="tel", name="celular">
+        <label for="email">E-mail:</label>
+        <input type="email", name="email", placeholder="Ex: joao.bastos@gmail.com">
+    </center>
+        <div class="medico-banner">
+            <p><h2>Condições Médicas</h2></p>
+        </div>
+
+        <div class="doencas-esq">
+            <input type="checkbox" name="diabetes">
+            <label for="diabetes">Diabetesㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</label>
+            <input type="checkbox", name="microce">
+            <label for="microce">Microcefalia</label>
+        </div>
+            
+        <div class="doencas-dir">
+            <input type="checkbox" name="hidroce">
+            <label for="hidroce">Hidrocefaliaㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</label>
+            <input type="checkbox" name="hipert">
+            <label for="hipert">Hipertesão</label>
+        </div>
+
+        
     </div>
-    <input type="text", placeholder="Nome Completo">
-    <br><br>
-    <input type="text">
 </body>
 </html>

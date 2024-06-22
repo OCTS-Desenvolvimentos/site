@@ -1,8 +1,29 @@
 .banner {
-    background-color: lightblue;
+    background-color: blue;
     text-align: center;
 }
 
-p {
-    font-family: ;
+.form {
+    font-size: 25px;
+    font-family: cursive;
+    color: yellow;
+    background-color: lightblue;
+    margin: 50px auto;
+    width: 50%;
+    height: 1000px;
+    border: 10px solid lightblue;
+}
+
+.medico-banner {
+    background-color: blue;
+
+}
+
+.doencas-esq {
+    background-color: red;
+
+}
+
+.doencas-dir {
+    background-color: red;
 }
