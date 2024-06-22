@@ -16,6 +16,7 @@
 
 .medico-banner {
     background-color: blue;
+    text-align: center;
 
 }
 
@@ -26,4 +27,8 @@
 
 .doencas-dir {
     background-color: red;
+}
+
+body {
+    background-color: rgba(173, 216, 230, 0.582);
 }
