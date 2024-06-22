@@ -3,22 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial - Bem Vindo!</title>
     <link rel="stylesheet" href="Styles/index.css">
 </head>
 <body>
-    <h3><div id="sumario">
-            <div class="temas" id="serviços">serviços</div>
-            <div class="temas" id="especialidades">especialidades</div>
-                    <div class="temas" id="profissionais">profissionais</div>
-                <div class="temas" id="feedback">feedback</div>
-        <div class="temas" id="pagina-de-contato">pagina-de-contato</div>
-    <div class="temas" id="faq">perguntas frequentes</div>
-        <div class="temas" id="agendamento-de-consulta">agendamento-de-consulta</div>
-        <div class="temas"; id="quem-somos">quem-somos</div>
-    </div></h3>
+    <h3>
+        <!-- INALTERAVEL--><div id="sumario">
+            <div class="temas" id="servicos"><a href="#servicos-section">Serviços</a></div>
+            <div class="temas" id="especialidades"><a href="#especialidades-section">Especialidades</a></div>
+            <div class="temas" id="profissionais"><a href="#profissionais-section">Profissionais</a></div>
+            <div class="temas" id="feedback"><a href="#feedback-section">Feedback</a></div>
+            <div class="temas" id="pagina-de-contato"><a href="#pagina-de-contato-section">Página de Contato</a></div>
+            <div class="temas" id="faq"><a href="#faq-section">Perguntas Frequentes</a></div>
+            <div class="temas" id="agendamento-de-consulta"><a href="#agendamento-de-consulta-section">Agendamento de Consulta</a></div>
+            <div class="temas" id="quem-somos"><a href="#quem-somos-section">Quem Somos</a></div>
+        </div>
+    </h3>
+
+    <!-- Espaço para permitir a rolagem, INALTERAVEL --> 
+    <div style="height: 1000px;"></div>
+
+    <div id="servicos-section" class="section">Conteúdo de Serviços</div>
+    <div id="especialidades-section" class="section">Conteúdo de Especialidades</div>
+    <div id="profissionais-section" class="section">Conteúdo de Profissionais</div>
+    <div id="feedback-section" class="section">Conteúdo de Feedback</div>
+    <div id="pagina-de-contato-section" class="section">Conteúdo de Página de Contato</div>
+    <div id="faq-section" class="section">Conteúdo de Perguntas Frequentes</div>
+    <div id="agendamento-de-consulta-section" class="section">Conteúdo de Agendamento de Consulta</div>
+    <div id="quem-somos-section" class="section">Conteúdo de Quem Somos</div>
 
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--INALTERAVEL-->
+    <script>
+        document.querySelectorAll('#sumario a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>

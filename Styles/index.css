@@ -8,18 +8,20 @@ body{
 #sumario{
   height: 70px;
   width: 1310px;
-background-color: rgb(109, 167, 147);
-text-align:center;
+  background-color: rgb(109, 167, 147);
+  text-align: center;
 }
 div.temas{
-    width: 160px;
-    height: 9px;
+    width: 300px;
+    height: 20px;
     border-left: 2px solid black;
     height: 100%;
+    border-top: 2px solid black;
+    background-color: rgb(109, 167, 147);
+    padding: 12px;
 }
 #quem-somos{
     float: right;
-
 }
 #agendamento-de-consulta{
   float: right;
@@ -39,6 +41,6 @@ div.temas{
 #especialidades{
     float: right;
 }
-#serviços{
+#servicos{
     float: right;
 }
