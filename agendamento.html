@@ -9,25 +9,54 @@
 </head>
 
 <body>
+<div class="bar">
+    <h1>Clínica Clínica</h1>
+</div>
+    
     <div class="form">
         <div class="banner">
             <p><h2>Agendamento de Consulta</h2></p>
         </div>
     <center>
-        <label for="Nome">Nome:</label>
-        <input type="text", placeholder="Nome Completo">
-        <label for="rg">RG:</label>
-        <input type="text" name="rg">
-        <label for="cpf">CPF:</label>
-        <input type="text" name="cpf">
-        <br><br>
-        <label for="nascimento">Data de nascimento:</label>
-        <input type="date">
-        <label for="genero">Gênero:</label>
-        <input type="radio", name="genero">
-        <label for="genero">Masculino</label>
-        <input type="radio", name="genero">
-        <label for="genero">Feminino</label>
+        <table class="lin1">
+        <tr>
+            <td>
+                <label for="Nome">Nome:</label>
+                <input type="text", placeholder="Nome Completo">
+            </td>
+            
+            <td>
+                <label for="rg">RG:</label>
+                <input type="text" name="rg">
+            </td>
+            
+            <td>
+                <label for="cpf">CPF:</label>
+                <input type="text" name="cpf">
+            </td>
+        </tr>
+        </table>
+<br>
+        <table class="lin2">
+            <tr>
+                <td>
+                    <label for="nasc">Data de nascimento:</label><input type="date" name="nasc">
+                </td>
+    
+                <td>
+                    <label for="genero">Gênero:</label>
+                </td>
+
+                <td>
+                    <input type="radio" name="masc">
+                    <label for="genero">Masculino</label>
+                    <input type="radio" name="fem">
+                    <label for="genero">Feminino</label>
+                </td>
+    
+            </tr>
+        </table>
+
         <br><br>
         <label for="endereco">Endereço:</label>
         <input type="text", name="endereco", placeholder="Ex: Rua Joaquim Fonseca">
@@ -42,20 +71,22 @@
         <div class="medico-banner">
             <p><h2>Condições Médicas</h2></p>
         </div>
+        
+        <table class="doen">
+            <tr>
+                <td><input type="checkbox"><label for="microce">Microcefalia</label></td>
+                <td><input type="checkbox"><label for="diab">Diabetes</label></td>
+            </tr>
 
-        <div class="doencas-esq">
-            <input type="checkbox" name="diabetes">
-            <label for="diabetes">Diabetesㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</label>
-            <input type="checkbox", name="microce">
-            <label for="microce">Microcefalia</label>
-        </div>
-            
-        <div class="doencas-dir">
-            <input type="checkbox" name="hidroce">
-            <label for="hidroce">Hidrocefaliaㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</label>
-            <input type="checkbox" name="hipert">
-            <label for="hipert">Hipertesão</label>
-        </div>
+            <tr>
+                <td><input type="checkbox"><label for="hidroce">Hidrocefalia</label></td>
+                <td><input type="checkbox"><label for="hipt">Hipertesão</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="checkbox"><label for="outro">Outro: <input type="text" name="outro"></label></td>
+            </tr>
+        </table>
 
         
     </div>
