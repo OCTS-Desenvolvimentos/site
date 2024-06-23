@@ -3,46 +3,90 @@
     text-align: center;
 }
 
+.titlu {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 7px solid white;
+
+}
+
+.nameba {
+    margin: auto;
+}
+
 .form {
     font-size: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
     background-color: white;
     margin: 50px auto;
+    margin-top: 15px;
     width: 60%;
     height: 1000px;
-    border: 10px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+
+.dados {
+    border-left: 
 }
 
 .medico-banner {
     background-color: rgb(231, 231, 231);
     text-align: center;
-
+    border-left: 7px solid white;
+    border-right: 7px solid white;
 }
 
 body {
     background-color: rgba(248, 244, 180);
+    margin: 0;
 }
 
 .bar {
     width: 100%;
-    background-color: rgb(248, 244, 205);
+    background-color: rgb(248, 244, 225);
     height: 65px;
-    border: 1px solid black;
+    margin-top: 0;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .lin1 {
     width: 100%;
-    text-align: center;
+
 }
 
 .lin2 {
     width: 80%;
-    text-align: center;
+    text-align: left;
 }
 
 .doen {
+    width: 100%;
+
+}
+
+.lin3 {
+    width: 100%;
+
+}
+
+.endereco {
+    width: 57%;
+}
+
+.nome {
+    width: 60%;
+}
+
+.lin4 {
     width: 80%;
+}
+
+.emailo {
+    width: 60%;
+}
+
+.outro {
+    width: 40%;
 }
