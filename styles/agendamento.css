@@ -11,7 +11,8 @@
 }
 
 .nameba {
-    margin: auto;
+    margin: 0;
+    border-top: 10px solid rgb(248, 244, 225);
 }
 
 .form {
@@ -23,7 +24,7 @@
     margin-top: 15px;
     width: 60%;
     height: 1000px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);   
 }
 
 .medico-banner {
@@ -38,9 +39,14 @@ body {
     margin: 0;
 }
 
+.dados {
+    border: 7px solid white;
+}
+
 .bar {
     width: 100%;
     background-color: rgb(248, 244, 225);
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
     height: 65px;
     margin-top: 0;
     text-align: center;
@@ -58,8 +64,8 @@ body {
 }
 
 .doen {
-    width: 100%;
-
+    width: 1200px;
+    
 }
 
 .lin3 {
