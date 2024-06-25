@@ -92,3 +92,16 @@ body {
 .outro {
     width: 40%;
 }
+
+.bot {
+    width: 120px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 25px;
+
+}
+
+.chebo {
+    width: 18px;
+    height: 18px;
+}
