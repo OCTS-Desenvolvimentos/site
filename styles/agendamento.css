@@ -105,3 +105,10 @@ body {
     width: 18px;
     height: 18px;
 }
+
+.cons {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
+}
