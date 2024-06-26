@@ -14,8 +14,8 @@
 </div>
     <form action="">
     <div class="form">
-        <div class="banner">
-            <p><h2 class="titlu">Agendamento de Consulta</h2></p>
+        <div class="bampa">
+            <h2 class="titlu">Agendamento de Consulta</h2>
         </div>
     <center>
         <div class="dados">
@@ -90,8 +90,8 @@
     </center>
         
 
-        <div class="medico-banner">
-            <h2>Condições Médicas</h2>
+        <div class="bampa">
+            <h2 class="rec">Condições Médicas</h2>
         </div>
         
         <table class="doen">
@@ -116,9 +116,28 @@
             </tr>
         </table>
 
-        <div class="cons">
-            <h2>Detalhes da consulta</h2>
+        <div class="bampa">
+            <h2 class="rec">Detalhes da consulta</h2>
         </div>
+
+        <table class="doen">
+            <tr height="50px">
+                <td>
+                    Local da consulta:
+                    <input type="text" name="local">
+                </td>
+                <td>
+                    Serviço que será feito:
+                    <input type="text" name="serv">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hor">Data da consulta:</label>
+                    <input type="datetime-local" name="hor">
+                </td>
+            </tr>
+        </table>
 
 
         <center><input type="submit" name="submit" value="ENVIAR" class="bot"></center>

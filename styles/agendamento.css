@@ -1,13 +1,6 @@
-.banner {
-    background-color: rgb(231, 231, 231);
-    text-align: center;
-}
-
 .titlu {
-    margin-top: 0;
-    margin-bottom: 0;
-    border: 7px solid white;
-
+    margin: 0;
+    border: 7px solid transparent
 }
 
 .nameba {
@@ -23,15 +16,22 @@
     margin: 50px auto;
     margin-top: 15px;
     width: 60%;
-    height: 1000px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);   
+    border: 5px solid transparent;
+    border-radius: 3px;
+    border-bottom: 35px solid transparent;
 }
 
-.medico-banner {
-    background-color: rgb(231, 231, 231);
-    text-align: center;
-    border-left: 7px solid white;
-    border-right: 7px solid white;
+.rec {
+    margin: 0;
+    border-left: 7px solid transparent;
+}
+
+.bampa {
+    background-color: rgba(231, 231, 231, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
 }
 
 body {
@@ -41,6 +41,7 @@ body {
 
 .dados {
     border: 7px solid white;
+    margin-bottom: 15px;
 }
 
 .bar {
@@ -65,6 +66,7 @@ body {
 
 .doen {
     width: 100%;
+    margin: 10px;
     
 }
 
@@ -94,21 +96,14 @@ body {
 }
 
 .bot {
-    width: 120px;
-    height: 60px;
+    width: 100%;
+    height: 1000px;
     border-radius: 100%;
-    font-size: 25px;
-
+    font-size: 200px;
+    font-weight: bolder;
 }
 
 .chebo {
     width: 18px;
     height: 18px;
-}
-
-.cons {
-    background-color: rgb(231, 231, 231);
-    text-align: center;
-    border-left: 7px solid white;
-    border-right: 7px solid white;
 }
