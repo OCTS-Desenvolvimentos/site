@@ -23,4 +23,11 @@ body{
 .tabs {
     width: 100%;
 }
+.convenios {
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
