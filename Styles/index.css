@@ -54,11 +54,9 @@ body{
 .subt {
     margin: 0;
     font-size: 40px;
-    border-top: 20px solid rgba(167, 167, 167, 0);
+    border-top: 30px solid transparent;
     text-shadow: 2px 2px 8px rgba(126, 126, 126, 0.24);
-    border-bottom: 1px solid rgba(199, 199, 199, 0.356);
     padding-bottom: 19px;
-    background-color: rgba(167, 167, 167, 0.151);
 }
 
 .servst {
