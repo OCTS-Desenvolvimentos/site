@@ -74,9 +74,17 @@ body{
     border-radius: 20px;
     width: 50%;
     height: 40px;
-    background-color: rgb(206, 201, 184);
+    background-color: rgb(255, 0, 0);
+    color: white;
     margin: auto;
-    border-top: 14px solid rgb(206, 201, 184);
+    border-top: 14px solid transparent;
+    transition: all 0.2s;
+}
+
+.saiba:hover {
+    transform: translateY(-7px);
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 255, 0);
 }
 
 .desc3 {
@@ -89,7 +97,9 @@ body{
 
 .blue {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    animation: deslizadaegypt 1.27s;
 }
+
 .saibamos{
     border-radius: 20px;
     width: 200px;
@@ -100,4 +110,53 @@ body{
     text-align: center;
     font-family: 'Poppins', sans-serif;
 
+}
+
+
+
+
+/*  ORDEM DA TRANSITION
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+
+/* Animações */
+
+/*  ORDEM DO ANIMATION
+    animation-name: deslizadaegypt;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both; */
+
+@keyframes deslizadaegypt {
+    from {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}  
+
+.banana {
+    animation-name: deslizadaegypt;
+}
+
+.animap {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animalesco {
+    animation-duration: 2.5s;
+}
+
+.animala {
+    animation-delay: 2.5s;
 }
