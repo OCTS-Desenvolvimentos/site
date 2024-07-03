@@ -14,6 +14,21 @@ body{
 
 a {
     color: inherit;
+    text-decoration: none;
+}
+
+.servg {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto 100px;
+}
+
+.servsg {
+    display: grid;
+    grid-row: 1 / 5;
+    grid-template-rows: subgrid;
+    justify-content: center;
+    padding: 15px;
 }
 
 .bar {
@@ -31,9 +46,8 @@ a {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr) ;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
     font-weight: 700;
     font-size: 18px;
 }
@@ -74,32 +88,23 @@ a:hover {
     padding-bottom: 19px;
 }
 
-.servst {
-    font-weight: 500;
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    border-top: 40px solid transparent;
-}
-
 .saiba {
     border-radius: 20px;
-    width: 50%;
+    width: 200px;
     height: 40px;
     background-color: rgb(255, 0, 0);
     color: white;
     margin: auto;
     border-top: 14px solid transparent;
     transition: all 0.2s;
+    cursor: pointer;
+    grid-row: 4 / 5;
 }
 
 .saiba:hover {
     transform: translateY(-7px);
     background-color: rgb(255, 251, 0);
     color: rgb(0, 255, 0);
-}
-
-.desc3 {
-    font-size: 20px;
 }
 
 .col {
@@ -117,13 +122,17 @@ a:hover {
     height: 40px;
     background-color: rgb(206, 201, 184);
     margin: auto;
-    border-top: 14px solid rgb(206, 201, 184);
     text-align: center;
+    border-top: 14px solid transparent;
     font-family: 'Poppins', sans-serif;
-
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
-
+.saibamos:hover {
+    transform: translateY(-7px);
+    background-color: rgb(177, 172, 157);
+}
 
 
 /*  ORDEM DA TRANSITION
