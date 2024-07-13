@@ -1,0 +1,36 @@
+.div1 {
+    width: 900x;
+    height: 170px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
+
+div#q1 {
+    background-image: linear-gradient(to bottom, cadetblue, #fffbf4);
+}
+
+.font1 {    
+    font-family: Stencil Std, fantasy;
+    font-size: 30pt;
+    color: #fefefe;
+}
+
+.div2{
+    background-color: #fcfcfc;
+    width: 900px;
+    height: 700px;
+}
+
+.div3 {
+    background-color: #f4f4f4;
+    width: 900px;
+    height: 400px;
+
+}
+
+.div4 {
+    background-color: cadetblue;
+    width: 900x;
+    height: 300px;
+}
