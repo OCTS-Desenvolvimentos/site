@@ -38,12 +38,59 @@ body{
     font-family: 'Segoe UI';
 }
 .p-esp {
-    font-size: 25px;
+    font-size: 20px;
     color: rgba(0, 0, 0, 0.801);
-    font-family: 'Sans-serif';
+    font-family: 'Segoe UI';
 }
 #obs {
     font-size: 15px;
     color: rgba(0, 0, 0, 0.801);
     font-family: 'Sans-serif';
+}
+.Espu {
+    display: flex;
+    background-color: rgb(248, 244, 225);
+    font-family:'Sans-serif';
+    border-bottom: 1px solid rgba(199, 199, 199, 0.356);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 17px 0 rgba(0, 0, 0, 0.07);
+    width: 365px;
+    height: 230px;
+    text-align: center;
+    
+}
+.Espd {
+    display: flex;
+    background-color: rgb(248, 244, 225);
+    font-family:'Sans-serif';
+    border-bottom: 1px solid rgba(199, 199, 199, 0.356);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 17px 0 rgba(0, 0, 0, 0.07);
+    width: 365px;
+    height: 230px;
+    position: relative;
+    top: -231px;
+    left: 400px;
+}
+.Espt {
+    display: flex;
+    background-color: rgb(248, 244, 225);
+    font-family:'Sans-serif';
+    border-bottom: 1px solid rgba(199, 199, 199, 0.356);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 17px 0 rgba(0, 0, 0, 0.07);
+    width: 365px;
+    height: 230px;
+    position: relative;
+    top: -461px;
+    left: 1200px;
+}
+.Espq {
+    display: flex;
+    background-color: rgb(248, 244, 225);
+    font-family:'Sans-serif';
+    border-bottom: 1px solid rgba(199, 199, 199, 0.356);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 17px 0 rgba(0, 0, 0, 0.07);
+    width: 365px;
+    height: 230px;
+    position: relative;
+    top: -691px;
+    left: 800px;
 }
