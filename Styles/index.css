@@ -29,6 +29,7 @@ a {
     grid-template-rows: subgrid;
     justify-content: center;
     padding: 15px;
+    align-items: center;
 }
 
 .bar {
@@ -52,7 +53,7 @@ a {
     font-size: 18px;
 }
 
-a:hover {
+.sol:hover {
     transform: scale(1.25);
     transition: transform 0.2s;
 }
@@ -61,7 +62,7 @@ a:hover {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(245, 241, 207);
-    height: 700px;
+    height: 400px;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.13);
     border-left: 300px solid transparent;
     border-right: 300px solid transparent;
@@ -102,7 +103,7 @@ a:hover {
 }
 
 .saiba:hover {
-    transform: translateY(-7px);
+    transform: scale(1.1);
     background-color: rgb(255, 251, 0);
     color: rgb(0, 255, 0);
 }
@@ -174,7 +175,7 @@ a:hover {
 }
 
 .animalesco {
-    animation-duration: 2s;
+    animation-duration: 1.5s;
 }
 
 .animala {

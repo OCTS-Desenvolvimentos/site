@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Consulta</title>
+    <link rel="stylesheet" href="styles/agendamento.css">
+</head>
+
+<body>
+<div class="bar">
+    <h1 class="nameba">Clínica Clínica</h1>
+</div>
+    <form action="">
+    <div class="form">
+        <div class="bampa">
+            <h2 class="titlu">Agendamento de Consulta</h2>
+        </div>
+    <center>
+        <div class="dados">
+            <table class="lin1">
+            <tr>
+                <td>
+                    <label for="Nome">Nome:</label>
+                    <input type="text", placeholder="Nome Completo" class="nome" required>
+                </td>
+            
+                <td>
+                    <label for="rg">RG:</label>
+                    <input type="text" name="rg" required>
+                </td>
+            
+                <td>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf">
+                </td>
+            </tr>
+            </table>
+            <br>
+            <table class="lin2" align="left">
+                <tr>
+                    <td>
+                        <label for="nasc">Data de nascimento: </label><input type="date" name="nasc">
+                    </td>
+    
+                    <td>
+                        <label for="genero">Gênero:</label>
+                    </td>
+
+                    <td>
+                        <input type="radio" name="masc">
+                        <label for="genero">Masculino</label>
+                        <input type="radio" name="fem">
+                        <label for="genero">Feminino</label>
+                    </td>
+    
+                </tr>
+            </table>
+        
+<br><br>    
+        <table class="lin3">
+            <tr>
+                <td>
+                    <label for="endereco">Endereço:</label>
+                    <input type="text", name="endereco", placeholder="Ex: Rua Joaquim Fonseca" class="endereco">
+                </td>
+                
+                <td>
+                    <label for="cep">CEP:</label>
+                    <input type="text", name="cep">
+                </td>
+            </tr>
+        </table>
+<br>
+        <table class="lin4" align="left">
+            <tr>
+                <td>
+                    <label for="celular">Telefone Celular:</label>
+                    <input type="tel", name="celular">
+                </td>
+
+                <td>
+                <label for="email">E-mail:</label>
+                <input type="email", name="email", placeholder="Ex: joao.bastos@gmail.com" class="emailo">
+                </td>
+            </tr>
+        </table>
+<br>    </div>
+    </center>
+        
+
+        <div class="bampa">
+            <h2 class="rec">Condições Médicas</h2>
+        </div>
+        
+        <table class="doen">
+            <tr>
+                <td width="50%"><input type="checkbox" name="microce" class="chebo"><label for="microce">Microcefalia</label></td>
+                <td width="50%"><input type="checkbox" name="diab" class="chebo"><label for="diab">Diabetes</label></td>
+            </tr>
+
+            <tr>
+                <td width="50%"><input type="checkbox" name="hidroce" class="chebo"><label for="hidroce">Hidrocefalia</label></td>
+                <td width="50%"><input type="checkbox" name="hipt" class="chebo"><label for="hipt">Hipertesão</label></td>
+            </tr>
+
+            <tr>
+                <td width="50%"><input type="checkbox" name="obesidade" class="chebo"><label for="obesidade">Obesidade Mórbida</label></td>
+                <td width="50%"><input type="checkbox" name="Nanismo" class="chebo"><label for="nanismo">Nanismo</label></td>
+            </tr>
+
+            <tr>
+                <td width="50%"><input type="checkbox" name="asma" class="chebo"><label for="asma">Asma</label></td>
+                <td width="50%"><input type="checkbox" name="outro" class="chebo"><label for="outro">Outro: <input type="text" name="outro" class="outro"></label></td>
+            </tr>
+        </table>
+
+        <div class="bampa">
+            <h2 class="rec">Detalhes da consulta</h2>
+        </div>
+
+        <table class="doen">
+            <tr height="50px">
+                <td>
+                    Local da consulta:
+                    <input type="text" name="local">
+                </td>
+                <td>
+                    Serviço que será feito:
+                    <input type="text" name="serv">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hor">Data da consulta:</label>
+                    <input type="datetime-local" name="hor">
+                </td>
+            </tr>
+        </table>
+
+
+        <center><input type="submit" name="submit" value="ENVIAR" class="bot"></center>
+    </div>
+</form>
+</body>
+</html>
