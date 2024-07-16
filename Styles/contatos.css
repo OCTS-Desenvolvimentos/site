@@ -17,7 +17,7 @@ body{
 
 .serv {
     border-top: 15px solid rgb(248, 244, 225);
-    margin-top: 20%;
+    
 }
 
 .tabs {
@@ -29,5 +29,41 @@ body{
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
+}
+.animap {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.blue {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+    animation: deslizadaegypt 1.27s;
+}
+@keyframes deslizadaegypt {
+    from {
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}  
+
+.zika {
+    animation-name: deslizadaegypt;
+}
+
+.animap {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animalesco {
+    animation-duration: 1.5s;
+}
+
+.animala {
+    animation-delay: 2.5s;
 }
 
