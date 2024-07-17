@@ -94,3 +94,10 @@ body{
     top: -691px;
     left: 800px;
 }
+.agendar {
+        display: flex;
+        position: relative;
+        border-color: yellow;
+
+
+}
