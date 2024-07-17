@@ -19,7 +19,6 @@
         <a href="especialidades.html" class="sol" target="_blank">Especialidades</a>
         <div id="sumario"><a href="#servicos-section" class="sol">Serviços</a></div>
         <a href="profissionais.html" class="sol" target="_blank">Profissionais</a>
-        
         <a href="contatos.html" class="sol" target="_blank">Página de Contato</a>
         <a href="FAQpagina/perguntas.html" class="sol" target="_blank">Perguntas Frequentes</a>
         <a href="feedback.html" class="sol" target="_blank">Feedback</a>
@@ -46,7 +45,7 @@
             
                 <td>
                     <label for="cpf">CPF:</label>
-                    <input type="text" name="cpf" placeholder="123.456.789-01">
+                    <input type="text" name="cpf" placeholder="123.456.789-01" required>
                 </td>
             </tr>
             </table>
@@ -54,7 +53,7 @@
             <table class="lin2" align="left">
                 <tr>
                     <td>
-                        <label for="nasc">Data de nascimento: </label><input type="date" name="nasc">
+                        <label for="nasc">Data de nascimento: </label><input type="date" name="nasc" required>
                     </td>
     
                     <td>
@@ -62,9 +61,9 @@
                     </td>
 
                     <td>
-                        <input type="radio" name="masc">
+                        <input type="radio" name="masc" required>
                         <label for="genero">Masculino</label>
-                        <input type="radio" name="fem">
+                        <input type="radio" name="masc" required>
                         <label for="genero">Feminino</label>
                     </td>
     
@@ -76,12 +75,12 @@
             <tr>
                 <td>
                     <label for="endereco">Endereço:</label>
-                    <input type="text", name="endereco", placeholder="Ex: Rua Joaquim Fonseca" class="endereco">
+                    <input type="text", name="endereco", placeholder="Ex: Rua Joaquim Fonseca" class="endereco" required>
                 </td>
                 
                 <td>
                     <label for="cep">CEP:</label>
-                    <input type="text", name="cep">
+                    <input type="text", name="cep" required>
                 </td>
             </tr>
         </table>
@@ -90,12 +89,12 @@
             <tr>
                 <td>
                     <label for="celular">Telefone Celular:</label>
-                    <input type="tel", name="celular">
+                    <input type="tel", name="celular" required>
                 </td>
 
                 <td>
                 <label for="email">E-mail:</label>
-                <input type="email", name="email", placeholder="Ex: joao.bastos@gmail.com" class="emailo">
+                <input type="email", name="email", placeholder="Ex: joao.bastos@gmail.com" class="emailo" required>
                 </td>
             </tr>
         </table>
@@ -109,23 +108,23 @@
         
         <table class="doen">
             <tr>
-                <td width="50%"><input type="checkbox" name="microce" class="chebo"><label for="microce">Microcefalia</label></td>
-                <td width="50%"><input type="checkbox" name="diab" class="chebo"><label for="diab">Diabetes</label></td>
+                <td width="50%"><input type="checkbox" name="microce" class="chebo" required><label for="microce">Microcefalia</label></td>
+                <td width="50%"><input type="checkbox" name="diab" class="chebo" required><label for="diab">Diabetes</label></td>
             </tr>
 
             <tr>
-                <td width="50%"><input type="checkbox" name="hidroce" class="chebo"><label for="hidroce">Hidrocefalia</label></td>
-                <td width="50%"><input type="checkbox" name="hipt" class="chebo"><label for="hipt">Hipertesão</label></td>
+                <td width="50%"><input type="checkbox" name="hidroce" class="chebo" required><label for="hidroce">Hidrocefalia</label></td>
+                <td width="50%"><input type="checkbox" name="hipt" class="chebo" required><label for="hipt">Hipertensão</label></td>
             </tr>
 
             <tr>
-                <td width="50%"><input type="checkbox" name="obesidade" class="chebo"><label for="obesidade">Obesidade Mórbida</label></td>
-                <td width="50%"><input type="checkbox" name="Nanismo" class="chebo"><label for="nanismo">Nanismo</label></td>
+                <td width="50%"><input type="checkbox" name="obesidade" class="chebo" required><label for="obesidade">Obesidade Mórbida</label></td>
+                <td width="50%"><input type="checkbox" name="Nanismo" class="chebo" required><label for="nanismo">Nanismo</label></td>
             </tr>
 
             <tr>
-                <td width="50%"><input type="checkbox" name="asma" class="chebo"><label for="asma">Asma</label></td>
-                <td width="50%"><input type="checkbox" name="outro" class="chebo"><label for="outro">Outro: <input type="text" name="outro" class="outro"></label></td>
+                <td width="50%"><input type="checkbox" name="asma" class="chebo" required><label for="asma">Asma</label></td>
+                <td width="50%"><input type="checkbox" name="outro" class="chebo" required><label for="outro">Outro: <input type="text" name="outro" class="outro"></label></td>
             </tr>
         </table>
 
@@ -137,23 +136,23 @@
             <tr height="50px">
                 <td>
                     Local da consulta:
-                    <input type="text" name="local">
+                    <input type="text" name="local" required>
                 </td>
                 <td>
                     Serviço que será feito:
-                    <input type="text" name="serv">
+                    <input type="text" name="serv" required>
                 </td>
             </tr>
             <tr>
                 <td>
                     <label for="hor">Data da consulta:</label>
-                    <input type="datetime-local" name="hor">
+                    <input type="datetime-local" name="hor" required>
                 </td>
             </tr>
         </table>
 
 
-        <center><input type="submit" name="submit" value="ENVIAR" class="bot"></center>
+        <center><input type="submit" name="submit" value="ENVIAR" class="bot" required></center>
     </div>
 </form>
 </body>
