@@ -58,6 +58,11 @@ a {
     transition: transform 0.2s;
 }
 
+#sumario:hover {
+    transform: scale(1.25);
+    transition: transform 0.2s;
+}
+
 .ptex {
     text-align: justify;
     font-family: 'Poppins', sans-serif;
