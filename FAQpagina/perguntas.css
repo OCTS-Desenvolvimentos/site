@@ -1,24 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
+
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .div1 {
     width: 100%;
-    height: 170px;
+    height: 80px;
     color: black;
     align-items: center;
     text-align: center;
 }
 
 div#q1 {
-    background-image: linear-gradient(to bottom, rgb(248,244,180), #fffbf4);
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(245, 242, 197), #fffbf4);
 }
 
 .font1 {    
-    font-family: Stencil Std, fantasy;
+    font-family: 'Poppins', sans-serif;
     font-size: 30pt;
-    color: black;
+    font-weight: 700;
+    color: #5a534b;
     margin-top: 0;
 }
 
@@ -38,6 +43,12 @@ div#q1 {
 
 .fito {
     text-align: center;
+    border-bottom: 10px solid #e9e9e9;
+}
+
+.mc {
+    margin: 0;
+    background-color: #e9e9e9;
 }
 
 .div4 {
@@ -52,7 +63,6 @@ div#q1 {
     background-color: black;
     width: 100%;
     height: 330px;
-    display:flex;
 }   
 
 .img {
@@ -73,15 +83,22 @@ a{
 
 h2 {
     color: #53483a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.vesicula {
+    margin: 0;
+    padding: 20px;
+    padding-top: 20px;
 }
 
 p{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
     color: #797063;
 }
 
 .h3 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Poppins', sans-serif;
     color: #797063;
 }
 
