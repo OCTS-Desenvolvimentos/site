@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700;900&display=swap');
 .div1 {
     height: 2260px;
     width: 700px;
@@ -60,7 +61,7 @@ input {
 }
 
 .div2 {
-    height: 2290px;
+    height: 2330px;
     width: 700px;
     background-color: #f6f6f6;
 }
