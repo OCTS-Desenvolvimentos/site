@@ -8,11 +8,11 @@
     <title>Feedback</title>
     <link rel="icon" href="images/logo2.png">
 </head>
-<body> <center>
+<body> 
     <div class="marcos">
         <img src="images/logo31.png" height="65px" >
     </div>
-<br> 
+
 
     <div class="bar">
         <div class="container">
@@ -28,49 +28,53 @@
     </div>
 
 </div>
-    <br><br>
+    <br><br> 
 
-    <div id="Começo">
-        <p style="font-family:sans-serif"><h1>Feedback</h1></p>
-    </div>
+   <center> <h2 id="Começo"><font size="8px">Feedback</font></h2></div>
 
-    <font size="4">Olá! Esta página é destinada para que possamos ter uma avaliação de como foi seu atendimento em nossa clínica!</font>
-    <hr>
-    <p style="font-family:'Times'">Deixe sua avaliação para que possamos melhorar ainda mais os nossos atendimentos!</p>
+    <div id="subtítulo">
+    Olá! Esta página é destinada para que possamos ter uma avaliação de como foi seu atendimento em nossa clínica! <br></div>
+       <div id=Dei>Deixe sua avaliação para que possamos melhorar ainda mais os nossos atendimentos!</div> 
+    
+   
     <br>
     <form>
-        
-        <u><font size="4"> <label for="atendimento">Como foi o atendimento de nossa equipe?</label> <br> </font></u>                                                                                                                                       
-            <input type="radio" id="atendimento" name="_A" > <font size="4">Muito Insatisfatório<br></font>
-            <input type="radio" id="atendimento" name="_A" > <font size="4">Insatisfatório<br></font>
-            <input type="radio" id="atendimento" name="_A" > <font size="4">Médiano<br></font>
-            <input type="radio" id="atendimento" name="_A" > <font size="4">Satisfatório<br></font>
-            <input type="radio" id="atendimento" name="_A" > <font size="4">Muito Satisfatório</font>   
+    <div class="opi">
+        <div class="att">
+            <h3><label for="atendimento">Como foi o atendimento de nossa equipe?</label> <br></h3>                                                                                                                                       
+            <input type="radio" id="atendimento" name="_A" > Muito Insatisfatório<br>
+            <input type="radio" id="atendimento" name="_A" > Insatisfatório<br>
+            <input type="radio" id="atendimento" name="_A" > Médiano<br>
+            <input type="radio" id="atendimento" name="_A" > Satisfatório<br>
+            <input type="radio" id="atendimento" name="_A" > Muito Satisfatório  
+        </div>
+
+        <div class="att">
+           <h3> <label for="qualidade">Como você consideraria a qualidade da sua consulta?</label> <br> </h3>
+            <input type="radio" id="qualidade" name="_Q" > Muito Insatisfatório<br>
+            <input type="radio" id="qualidade" name="_Q" > Insatisfatório<br>
+            <input type="radio" id="qualidade" name="_Q" > Médiano<br>
+            <input type="radio" id="qualidade" name="_Q" > Satisfatório<br>
+            <input type="radio" id="qualidade" name="_Q" > Muito Satisfatório
+        </div>
+
+        <div class="att">
+            <h3><label for="ambiente">O que você achou do ambiente da clínica?</label> <br> </h3>
+            <input type="radio" id="ambiente" name="_B" > Muito Insatisfatório<br>
+            <input type="radio" id="ambiente" name="_B" > Insatisfatório<br>
+            <input type="radio" id="ambiente" name="_B" > Médiano<br>
+            <input type="radio" id="ambiente" name="_B" > Satisfatório<br>
+            <input type="radio" id="ambiente" name="_B" > Muito Satisfatório
+        </div>
+    </div>
+
 <br><br><br>
 
-       <u><font size="4"> <label for="qualidade">Como você consideraria a qualidade da sua consulta?</label> <br> </font></u>
-            <input type="radio" id="qualidade" name="_Q" > <font size="4">Muito Insatisfatório<br></font>
-            <input type="radio" id="qualidade" name="_Q" > <font size="4">Insatisfatório<br></font>
-            <input type="radio" id="qualidade" name="_Q" > <font size="4">Médiano<br></font>
-            <input type="radio" id="qualidade" name="_Q" > <font size="4">Satisfatório<br></font>
-            <input type="radio" id="qualidade" name="_Q" > <font size="4">Muito Satisfatório</font>
-<br><br><br>
-
-        <u><font size="4"> <label for="ambiente">O que você achou do ambiente da clínica?</label> <br> </font></u>
-            <input type="radio" id="ambiente" name="_B" > <font size="4">Muito Insatisfatório<br></font>
-            <input type="radio" id="ambiente" name="_B" > <font size="4">Insatisfatório<br></font>
-            <input type="radio" id="ambiente" name="_B" > <font size="4">Médiano<br></font>
-            <input type="radio" id="ambiente" name="_B" > <font size="4">Satisfatório<br></font>
-            <input type="radio" id="ambiente" name="_B" > <font size="4">Muito Satisfatório</font>
-<br><br><br>
-
-    <label for="opinion">Tem algo a mais para nos falar? Deixe seu comentário para nos aprimorar cada vez mais!:</label><br>
-    <textarea name="opinion" id="opinião" cols="35" rows="4">Comentário...</textarea>
 
 
-<h1>Avalie-nos!</h1>
 
-<p>Selecione a quantidade de estrelas relacionado com a sua experiência em geral com nossa clínica:</p>
+
+<p id="strel">Selecione a quantidade de estrelas relacionado com a sua experiência em geral com nossa clínica:</p>
 <div class="rating">
     <input type="radio" name="star" id="star1"><label for="star1"></label>
     <input type="radio" name="star" id="star2"><label for="star2"></label>
@@ -78,9 +82,14 @@
     <input type="radio" name="star" id="star4"><label for="star4"></label>
     <input type="radio" name="star" id="star5"><label for="star5"></label> 
   </div>
-
-  <br><br><br>
-  <input type="submit" value="Enviar Feedback"></center>
+<br><br><br><br><br><br>
+  <div class="pl">
+    <label for="opinion">Tem algo a mais para nos falar? Deixe seu comentário para nos aprimorar cada vez mais!:</label><br><br>
+    <textarea name="opinion" id="opinião" cols="35" rows="4" placeholder="Comentário..."></textarea>
+</div>
+<br>
+</center>
+  <center><input type="submit" value="Enviar Feedback"></center>
 </form>
 
 

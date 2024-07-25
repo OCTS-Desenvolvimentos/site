@@ -5,13 +5,13 @@
     padding: 0 auto;
   }
   body{
-      margin: 0;
+      margin: 0px;
       background: #f8f4b4;
     }
     
     .rating{
       position: absolute;
-      top: 123%;
+      top: 80%;
       left: 50%;
       transform: translate(-50%,-50%) rotateY(180deg);
       display: flex;
@@ -79,12 +79,13 @@
 
     }
     #Começo {
-      border: #d3d7d9;
-      background-color: #d3d7d9;
-      margin-top: none;
-      padding: 15px;
-      font-family: sans-serif;
-    }
+    margin: auto;
+    border-top: 25px solid  transparent;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    border-bottom: 25px;
+}
+
     #linkgeral {
       background-color: #f8f4b4;
 
@@ -135,5 +136,50 @@
     position: relative;
     align-content: center;
     color: rgba(0, 0, 0, 0.801);
-    top-g
 }
+.atendimento {
+        border: #adaa7d solid;
+        border-width: 2px;
+        padding: 25px;
+}
+#subtítulo {
+  font-family: 'Poppins', sans-serif;
+  text-indent: 6px;
+
+}
+.opi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-template-rows: auto auto 250px;
+    margin-left: 365px;
+}
+.att {
+  background-color: rgb(236, 236, 168);
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  grid-row: 1 / 4;
+  justify-content: center;
+  border-radius: 10px;
+  font-family:'Poppins', sans-serif;
+}
+#Dei {
+    
+    font-family: 'Poppins', sans-serif;
+}
+.pl {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+#strel {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+
