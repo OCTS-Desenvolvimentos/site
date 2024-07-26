@@ -178,8 +178,14 @@
   text-align: center;
 }
 
+.pontifício {
+  cursor: pointer;
 
+}
 
-
+.pontifício:hover {
+  background-color: rgba(207, 206, 171, 0.753);
+  border-radius: 6px;
+}
 
 
